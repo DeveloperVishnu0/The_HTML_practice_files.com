@@ -1,0 +1,270 @@
+
+@font-face{
+    font-family: "Booter - Zero Zero";
+    src: url("Blackhole/Fonts/Booter - Zero Zero/@font-face/57d038810942f99c1d5f6aa97fb3c697.svg.woff") format("woff"),
+    url("Blackhole/Fonts/Booter - Zero Zero/@font-face/57d038810942f99c1d5f6aa97fb3c697.svg.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+      
+}  
+ * {
+    box-sizing: border-box;
+    font-family:  Georgia, 'Times New Roman', Times, serif;
+    color: #777;
+    
+ }
+.html body{
+    margin: 0;
+}
+.main-nav ul{
+    margin: 0px;
+}
+.main-nav li{
+display: inline;
+  padding: 0 5%;
+}
+.main-nav a{
+    color: white;
+    display: inline-block;
+    padding: .5cm;
+    text-decoration: none;
+ }
+ 
+.main-nav{
+    text-align: center;
+    font-size: 0.6cm;   
+    font-weight: lighter; 
+    border-bottom: 1px solid rgb(221, 215, 215,);
+}
+ .main-nav :hover{
+    background-color:  rgba(229, 230, 238, 0.3);
+ }
+.main-header{
+    background-image: url("Footer/Header.jpg");
+    background-size: cover;
+    background-color: white;
+    background-blend-mode: multiply;
+    padding-bottom: 50px;
+    text-align: center;
+ }
+ .main-artical{
+    font-family: "Booter - Zero Zero";
+    color: rgb(255, 255, 255, .3);
+    font-size: 2cm;
+    margin: 0%;
+    font-weight: normal;
+    color: white;
+ }
+ .artical-large{
+    font-size: 9em;
+    color: white;
+
+ }
+ .main-artical-image
+ {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin: 5mm;
+    float: left;
+ }
+ .contant-section{
+   margin: 1em;
+ }
+ .container{
+   max-width: 900px;
+   margin: 0 auto;
+   padding: 0 1.5em;
+ }
+ .main-footer{
+   display: flex;   
+   background-image: url("Footer/marketplace-trinity-column-parish-church-gothic-keszthelyi-vegvar-F4T7XN.jpg");
+     background-size: cover ;
+ }
+ .main-footer-container
+ {
+flex-grow: 1;
+text-align: end;
+ }
+ .footer-images{
+   display: inline; 
+   float: right;
+    margin: 0%;
+    padding:  0%;
+ }
+/*.section-header{
+   font-family: "Booter - Zero Zero";
+   text-align: center;
+   font-size: xx-large ;
+}*/
+.btn{
+   padding: 1em;
+   margin: 0%;
+   font-size: large;
+   cursor: pointer;
+   border-color: rgb(99, 99, 245);
+   background-color: rgb(255, 255, 255, .1);
+   color: white;
+}
+.btnn{
+   font-size: x-large;
+   border-color:rgb(99, 99, 245) ;
+   width: 3em;
+   height: 3em;
+   border-radius: 50%;
+background-color:  rgba(236, 222, 222, 0.1);
+color: rgb(241, 235, 235);
+border-color: rgb(108, 108, 247);
+}
+.section-header{
+   font-family: "Booter - Zero Zero";
+   text-align: center;
+   color: black;
+   font-size: 1.5cm;
+   margin: 0%;
+}
+.tour-holder{
+   border-bottom: 1px solid black;
+   text-align: center;
+   margin: 1em;
+   padding: 1em;
+   
+}
+.tour-holder:last-child{
+   border-bottom: none;
+}
+.tour-item{
+   display: inline;
+   padding: 0.5em;
+}
+.btn-primary{
+   padding: 0%;
+   margin: 0%;
+   width: 7em;
+   height: 2em;
+   color: white;
+   display: inline;;
+   background-color:rgb(15, 106, 241) ;
+   border: none;
+   border-radius: 0.5em;
+   font-weight: bold ;
+  
+}
+.btn-primary:hover{
+   background-color:rgb(12, 84, 192) ;
+}
+.shop-item{
+   margin: 30px;
+}
+.shop-item-title{
+   display: block;
+   width :100%;
+   text-align: center;
+   color: rgb(53, 52, 52);
+   margin-bottom :15px;
+   font-size: 1.5em;
+}
+.shop-item-btn{
+   margin: 0%;
+   padding: 0%;
+   width:  8em;
+   height:  3em;
+
+}
+.shop-item-image{
+   height: 200px;
+}
+
+.shop-item-details{
+   display: flex;
+   align-items: center;
+   padding: 15px;
+}
+.shop-item-price{
+   flex-grow: 1;
+}
+.shop-items{
+   display: flex;
+   flex-wrap: wrap ;
+   justify-content: space-around;
+}
+.cart-colume{
+   display: flex;
+   align-items: center;
+   font-size: 1.2em;
+   border-bottom: 1px solid black;
+   padding-bottom: 10px;
+   margin-right: 1.5em;
+   margin-top: 10px;
+}
+.cart-header{
+   font-size: 0.9em;
+   font-weight: bold;
+   color: rgb(112, 107, 107);
+}
+.cart-raw{
+   display: flex;
+   text-align: center;
+}
+.cart-item{
+width: 45%;
+}
+.cart-price{
+width: 20%;
+
+}
+.cart-quality{
+width: 35%;
+}
+.cart-item-title{
+   margin-left: .5em;
+   font-size: 1.2em;
+   color: #777;
+}
+.btn-danger{
+   background-color: rgb(235, 68, 68);
+}
+.btn-danger:hover{
+   background-color: rgb(175, 27, 27);
+}
+.cart-quantity-input{
+   height: 34px; ;
+   width: 50px;
+   text-align: center;
+   font-size: 1.2em;
+   background-color: rgb(172, 168, 168);
+   border-color:rgb(99, 99, 245) ;
+   border-radius: 5px;
+   margin-right: 25px;
+   font-weight: bold;
+   color: white;
+   margin-top: 20px;
+}
+.cart-raw:last-child{
+  border-bottom: 1px solid black;
+}
+.cart-raw:last-child .cart-colume{
+   border: none;
+}
+.cart-total{
+text-align: end;
+margin-top: 10px;
+margin-right: 10px;
+}
+.cart-total-title{
+   font-size: 1.2em;
+   font-weight: bold;
+   color:  black;
+   margin-right: 20px ;
+}
+.cart-total-price{
+   color: #333;
+}
+.cart-total-btn{
+   display: block;
+   font-size: 1.75em;
+   align-items: center;
+   margin: 40px auto 80px auto;
+   margin-top: 40px;
+   margin-bottom: 80px;
+}
